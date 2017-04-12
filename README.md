@@ -1,11 +1,8 @@
-![Toolbox Icon](https://raw.githubusercontent.com/UN-OCHA/COD-ArcTools/master/Screenshots/ToolboxIcon/ArcToolBox.png)
-# COD-ArcTools
-
 A set of ArcGIS scripts created to automate certain points of the ITOS Administrative Boundaries Data Pre-processing evaluation.
 
 The ITOS Administrative Boundaries Data Pre-processing Evaluation Checklist is used to evaluate essential characteristics of administrative boundary shapefiles before they are accepted into the collection of Common Operational Datasets (CODs).
 
-To learn how use any of the scripts below, or to learn how to import a custom toolbox into ArcMap, refer to the **Tutorials** folder.
+To learn how use any of the scripts below, or to learn how to import a custom toolbox into ArcMap, refer to the [Tutorials Folder](/Tutorials).
 
 ## UTF Encoding & Spatial Reference Check Toolbox
 The *UTF_and_SpatialRefCheck.tbx* contains two scripts that check and report the UTF Encoding and Spatial Reference System for every shapefiles within a folder.
