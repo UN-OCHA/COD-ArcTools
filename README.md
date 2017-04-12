@@ -1,4 +1,3 @@
-![Toolbox Icon](Screenshots\ToolboxIcon\ArcToolBox.png)
 # COD-ArcTools
 
 A set of ArcGIS scripts created to automate certain points of the ITOS Administrative Boundaries Data Pre-processing evaluation.
