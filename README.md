@@ -1,5 +1,5 @@
 # COD-ArcTools
-A set of ArcMap scripts designed to automate certain steps of the ITOS Administrative Boundaries Data Pre-processing evaluation.
+A set of ArcMap scripts designed to automate certain steps of the ITOS Administrative Boundaries Data Pre-processing Evaluation Checklist.
 
 The ITOS Administrative Boundaries Data Pre-processing Evaluation Checklist is used to evaluate essential characteristics of administrative boundary shapefiles before they are accepted into the collection of Common Operational Datasets (CODs).
 
