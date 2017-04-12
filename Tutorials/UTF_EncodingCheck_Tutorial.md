@@ -4,25 +4,25 @@
 The *UTF Encoding Check* script reports the UTF encoding of all shapefiles within a folder. The script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or newer.
 
 ### 1. Files to be Processed
-![Files Image](K:\UN\UN_COD_Tools\COD-ArcTools\Screenshots\SpatialRef_Check\files.PNG "Files to be Processed")
+![Files Image](Screenshots/UTF_Check/files.PNG "Files to be Processed")
 
 For this example, there are three different types of shapefiles (line, point, polygon) within a folder titled *Haiti_shp*. The *UTF Encoding Check* script will report each shapefile's UTF encoding when used in ArcMap.
 
 ### 2. Opening the UTF Encoding Check Script
 To open the script, double-click the *UTF Encoding Check* script within the *UTF and Spatial Ref Check* toolbox.
 
-![Toolboxes Image](K:\UN\UN_COD_Tools\COD-ArcTools\Screenshots\UTF_Check\toolAdded.PNG "Toolboxes")
+![Toolboxes Image](Screenshots/UTF_Check/toolAdded.PNG "Toolboxes")
 
 When the *UTF Encoding Check* script interface is displayed, it should look like the image below.
 
-![UTF Check UI Image](K:\UN\UN_COD_Tools\COD-ArcTools\Screenshots\UTF_Check\UTFCheckUI.PNG "UTF Check UI")
+![UTF Check UI Image](Screenshots/UTF_Check/UTFCheckUI.PNG "UTF Check UI")
 
 ### 3. Specifying the Folder to Evaluate & Executing the Script
 Navigate to the folder that contains the shapefiles that you wish to check the UTF encoding of. In this tutorial, the folder to specify is the *Haiti_shp* folder. Click 'Add' then 'OK' to run the *UTF Encoding Check* script on each shapefile within the specified folder.
 
 Note 1: The *UTF Encoding Check* script does not evaluate any shapefiles that may be within sub-folders.
 
-![Selecting a folder Image](K:\UN\UN_COD_Tools\COD-ArcTools\Screenshots\UTF_Check\UTFChooseFolder.PNG "Selecting a folder")
+![Selecting a folder Image](Screenshots/UTF_Check/UTFChooseFolder.PNG "Selecting a folder")
 
 
 Note 2: The if each shapefile does not have a corresponding *.cpg* file, you will be notified with one of the following messages:.
@@ -63,6 +63,6 @@ Note: If the results window closes automatically, the results can also be found 
 
 	Completed script UTFcheck...
 
-![Selecting a folder Image](K:\UN\UN_COD_Tools\COD-ArcTools\Screenshots\UTF_Check\UTFOutput.PNG "Selecting a folder")
+![Results Output Image](Screenshots/UTF_Check/UTFOutput.PNG "Results Output")
 
 ### Tutorial Complete
