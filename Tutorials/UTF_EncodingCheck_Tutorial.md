@@ -1,7 +1,7 @@
 # ArcMap Tool Tutorial:  UTF Encoding Check
 
 ## UTF Encoding Check Script Summary
-The *UTF Encoding Check* script reports the UTF encoding of all shapefiles within a folder. The script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or newer.
+The *UTF Encoding Check* script reports the UTF encoding of all shapefiles within a folder. The script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or later.
 
 ### 1. Files to be Processed
 ![Files Image](../Screenshots/UTF_Check/files.PNG "Files to be Processed")
@@ -36,8 +36,8 @@ If there are a different number of *.shp* and *.cpg* files within the specified 
 If there are an equal number of *.shp* and *.cpg* files within the specified folder, but not every *.shp* file has a matching *.cpg* file:
 
 	The UTF encoding information for XXXXX.shp could not be found.
-	Since the number of .shp files matches the number of .cpg files, perhaps
-	the names of the .shp file and .cpg file do not match.
+	Since the number of .shp files matches the number of .cpg files,
+	perhaps the names of the .shp file and .cpg file do not match.
 
 ### 4. Viewing the Results
 Once the *UTF Encoding Check* script has finishing running, it will display the name and UTF encoding of each shapefile. Check the displayed results to ensure that each shapefile is using the correct UTF encoding. In this tutorial, all three shapefiles are encoded with *UTF-8*.

@@ -1,7 +1,7 @@
 # ArcMap Tool Tutorial: Spatial Reference Check
 
 ## Spatial Reference System Check Script Summary
-The *Spatial Reference System Check* script reports the Spatial Reference System of each shapefile within a folder. The script works by first identifying each *.shp* file within the specified folder, then the script identifies the Spatial Reference System used by each shapefile. The Spatial Reference System for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or newer.
+The *Spatial Reference System Check* script reports the Spatial Reference System of each shapefile within a folder. The script works by first identifying each *.shp* file within the specified folder, then the script identifies the Spatial Reference System used by each shapefile. The Spatial Reference System for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or later.
 
 ### 1. Files to be Processed
 ![Files Image](../Screenshots/SpatialRef_Check/files.PNG "Files to be Processed")
