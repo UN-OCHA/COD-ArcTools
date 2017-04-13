@@ -5,6 +5,8 @@ The ITOS Administrative Boundaries Data Pre-processing Checklist is used to eval
 
 To learn how use any of the scripts below, or to learn how to import a custom toolbox into ArcMap, refer to the [Tutorials Folder](/Tutorials).
 
+ Only the *.tbx* files needs to be downloaded and imported into ArcMap. For convenience, copies of the Python scripts that were embedded into the ArcMap tools are available for viewing in the [Python Folder](/Python). Editing the Python scripts found in this folder will not affect the functions of the tools within the *.tbx* files. Each *.tbx* file is independent and self-contained.
+
 ## UTF Encoding & Spatial Reference Check Toolbox
 The *UTF_and_SpatialRefCheck.tbx* contains two scripts that each automate a step of the ITOS Administrative Boundaries Data Pre-processing Checklist check. Each script checks specific characteristics of each shapefile within a folder and generates a human readable report.
 
