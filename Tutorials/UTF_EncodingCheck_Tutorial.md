@@ -1,7 +1,9 @@
 # ArcMap Tool Tutorial:  UTF Encoding Check
 
 ## UTF Encoding Check Script Summary
-The *UTF Encoding Check* script reports the UTF encoding of all shapefiles within a folder. The script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or later.
+The *UTF Encoding Check* script reports the UTF encoding of each shapefile within a folder.
+
+The *UTF Encoding Check* script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding  is reported to the user in the Details pane of the Results dialog window that appears when the script is used in ArcMap v10.0 or later.
 
 ### 1. Files to be Processed
 ![Files Image](../Screenshots/UTF_Check/files.PNG "Files to be Processed")
@@ -20,12 +22,12 @@ When the *UTF Encoding Check* script interface is displayed, it should look like
 ### 3. Specifying the Folder to Evaluate & Executing the Script
 Navigate to the folder that contains the shapefiles that you wish to check the UTF encoding of. In this tutorial, the folder to specify is the *Haiti_shp* folder. Click 'Add' then 'OK' to run the *UTF Encoding Check* script on each shapefile within the specified folder.
 
-Note 1: The *UTF Encoding Check* script does not evaluate any shapefiles that may be within sub-folders.
+Note: The *UTF Encoding Check* script does not evaluate any shapefiles within sub-folders.
 
 ![Selecting a folder Image](../Screenshots/UTF_Check/UTFChooseFolder.PNG "Selecting a folder")
 
 
-Note 2: The if each shapefile does not have a corresponding *.cpg* file, you will be notified with one of the following messages:.
+Note: The if each shapefile does not have a corresponding *.cpg* file, you will be notified with one of the following messages:.
 
 If there are a different number of *.shp* and *.cpg* files within the specified folder:
 

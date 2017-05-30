@@ -5,10 +5,10 @@ The ITOS Administrative Boundaries Data Pre-processing Checklist is used to eval
 
 To learn how use any of the scripts below, or to learn how to import a custom toolbox into ArcMap, refer to the [Tutorials Folder](/Tutorials).
 
- Only the *.tbx* files needs to be downloaded and imported into ArcMap. For convenience, copies of the Python scripts that were embedded into the ArcMap tools are available for viewing in the [Python Folder](/Python). Editing the Python scripts found in this folder will not affect the functions of the tools within the *.tbx* files. Each *.tbx* file is independent and self-contained.
+ Only the *.tbx* files needs to be downloaded and imported into ArcMap. For convenience, the Python scripts that were embedded into the ArcMap tools are available in the [Python Folder](/Python). Editing the Python scripts found within the Python folder will not affect the functions of the tools within the *.tbx* files. Each *.tbx* file is independent and self-contained.
 
 ## UTF Encoding & Spatial Reference Check Toolbox
-The *UTF_and_SpatialRefCheck.tbx* contains two scripts that each automate a step of the ITOS Administrative Boundaries Data Pre-processing Checklist check. Each script checks specific characteristics of each shapefile within a folder and generates a human readable report.
+The *UTF_and_SpatialRefCheck.tbx* contains two scripts that each automate a step of the ITOS Administrative Boundaries Data Pre-processing Checklist check. Each script checks specific characteristics of every shapefile within a folder and then generates a report.
 
 ### ITOS Data Pre-processing Coverage
 ITOS checkpoints covered by *UTF_and_SpatialRefCheck.tbx*
@@ -16,7 +16,11 @@ ITOS checkpoints covered by *UTF_and_SpatialRefCheck.tbx*
 * **1.5:** Projection is defined, correct, and consistent
 
 ### UTF Encoding Check Script Summary
-The *UTF Encoding Check* script reports the UTF encoding of all shapefiles within a folder. The script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or later. [Tutorial](/Tutorials/UTF_EncodingCheck_Tutorial.md)
+The *UTF Encoding Check* script reports the UTF encoding of each shapefile within a folder.
+
+The *UTF Encoding Check* script works by first identifying each *.shp* file within the specified folder. The script then locates and reads each corresponding *.cpg* file to determine the UTF encoding. The UTF encoding  is reported to the user in the Details pane of the Results dialog window that appears when the script is used in ArcMap v10.0 or later. [Tutorial](/Tutorials/UTF_EncodingCheck_Tutorial.md)
 
 ### Spatial Reference System Check Script Summary
-The *Spatial Reference System Check* script reports the Spatial Reference System of each shapefile within a folder. The script works by first identifying each *.shp* file within the specified folder, then the script identifies the Spatial Reference System used by each shapefile. The Spatial Reference System for each shapefile is then reported to the user in the Details pane of the Results dialog box that appears when the script is used in ArcMap v10.0 or later. [Tutorial](/Tutorials/SpatialRefCheck_Tutorial.md)
+The *Spatial Reference System Check* script reports the Spatial Reference System of each shapefile within a folder.
+
+The *Spatial Reference System Check* script works by first identifying each *.shp* file within the specified folder. The script then identifies the Spatial Reference System used by each shapefile and reports the results to the user in the Details pane of the Results dialog window that appears when the script is used in ArcMap v10.0 or later. [Tutorial](/Tutorials/SpatialRefCheck_Tutorial.md)
